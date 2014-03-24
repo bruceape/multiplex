@@ -1,0 +1,51 @@
+// Customer Reviews
+.customer-review-wrap {
+	padding: 0;
+	margin: 0 0 25px;
+}
+
+.customer-review {
+	@extend .clearfix;
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.customer-review-avtr {
+	float: left;
+	width: 50px;
+}
+
+.customer-review-cmnt {
+	float: left;
+	width: 180px;
+	min-height: 40px;
+	background-color: $tan-l-color;
+	border: 1px solid $tan-border-color;
+	padding: 8px 9px;
+	border-radius: 4px;
+	position: relative;
+	&:before, &:after {
+		content: ' ';
+		display: block;
+		height: 0;
+		width: 0;
+		position: absolute;
+		right: 100%;
+		top: 13px;
+		border: solid 6px transparent;
+		point-events: none;
+	}
+	&:after {
+		border-right: solid 6px $tan-l-color;
+	}
+	&:before {
+		border-right: solid 7px $tan-border-color;
+	}
+	p {
+		@extend .helvetica;
+		margin: 0;
+		font-size: 12px;
+		line-height: 14px;
+		color: $font-l-color;
+	}
+}

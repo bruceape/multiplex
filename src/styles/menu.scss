@@ -1,0 +1,34 @@
+// Menu
+
+.menu-list {
+	@extend .clearfix;
+	margin: 0;
+	padding: 2px 0 0;
+	li {
+		text-align: center;
+		width: 20%;
+		float: left;
+		&:first-child {
+			text-align: left;
+			padding-left: 35px;
+		}
+		&:last-child {
+			text-align: right;
+			padding-right: 30px;
+		}
+	}
+}
+
+.menu-link, .menu-link:link, .menu-link:visited {
+	@extend .helvetica;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: $blue-d-color;
+	text-shadow: 0 1px 0 $drop-l-color;
+	line-height: 38px;
+	transition: color .3s ease;
+}
+.menu-link:hover, .menu-link:active, .menu-link:focus {
+	color: darken($blue-d-color, 20);
+}

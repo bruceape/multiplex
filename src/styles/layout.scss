@@ -1,0 +1,25 @@
+// Layout
+
+.wrapper {
+	@extend .clearfix;
+	width: 650px;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.product-info {
+	width: 380px;
+	float: left;
+	margin-right: 20px;
+}
+
+.product-shot {
+	margin-bottom: 25px;
+}
+
+.product-meta {
+	width: 250px;
+	float: left;
+	background-color: $tan-d-color;
+	padding: 6px 10px 0;
+}

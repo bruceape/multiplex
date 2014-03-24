@@ -1,0 +1,18 @@
+.main-banner {
+	background-color: $blue-color;
+	padding: 2px;
+	margin-bottom: 28px;
+	border-radius: 4px;
+}
+
+.main-heading {
+	overflow: hidden;
+	text-indent: 110%;
+	white-space: nowrap;
+	min-height: 116px;
+	margin: 0;
+	border-radius: 4px;
+	background: url(../img/logo.png) center no-repeat,
+							url(../img/bg.png) 2px 2px;
+	background-color: $blue-l-color;
+}

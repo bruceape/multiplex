@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="main-header" role="banner">
+      <header class="main-banner" role="banner">
         <h1 class="main-heading">The Multiplexer's Mall</h1>
         <nav role="navigation">
           <ul class="menu-list">
@@ -32,11 +32,17 @@
           <h3>Customer Reviews</h3>
           <ul class="customer-review-wrap">
             <li class="customer-review" itemprop="review" itemscope itemtype="http://schema.org/Review">
-              <a class="customer-review-avtr" href="#"><img src="img/avatar-1.jpg" alt="John's Avatar"></a>
+              <a class="customer-review-avtr" href="#">
+                <img src="img/avatar-1.jpg" alt="John's Avatar">
+                <meta itemprop="author" content="John">
+              </a>
               <div class="customer-review-cmnt" itemprop="reviewBody"><p>I thought these were pretty good. I abused them quite a bit and they held up nicely.</p></div>
             </li>
             <li class="customer-review" itemprop="review" itemscope itemtype="http://schema.org/Review">
-              <a class="customer-review-avtr" href="#"><img src="img/avatar-2.jpg" alt="Maria's Avatar"></a>
+              <a class="customer-review-avtr" href="#">
+                <img src="img/avatar-2.jpg" alt="Maria's Avatar">
+                <meta itemprop="author" content="Maria">
+              </a>
               <div class="customer-review-cmnt" itemprop="reviewBody"><p>Pretty good, for the price.</p></div>
             </li>
           </ul>

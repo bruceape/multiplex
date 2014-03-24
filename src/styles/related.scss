@@ -1,0 +1,15 @@
+// Related Products
+
+.related-list {
+	@extend .clearfix;
+	margin: 0;
+	padding: 0;
+	li {
+		list-style: none;
+		float: left;
+		padding: 0 10px 10px 0;
+		&:nth-child(2n) {
+			padding: 0 0 10px 0;
+		}
+	}
+}
